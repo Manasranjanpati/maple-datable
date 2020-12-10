@@ -10,7 +10,7 @@ from .serializers import AircraftSerializer, OriginSerializer
 
 
 def index(request):
-    return render(request, 'navyapp/albums.html')
+    return render(request, 'navyapp/maple.html')
 
 
 def get_aircraft_options():
