@@ -25,9 +25,6 @@ class AircraftSerializer(serializers.ModelSerializer):
     def get_purposes(self, aircraft):
         return ', '.join([str(purpose) for purpose in aircraft.purposes.all()])
 
-    # If you want, you can add special fields understood by Datatables,
-    # the fields starting with DT_Row will always be serialized.
-    # See: https://datatables.net/manual/server-side#Returned-data
     DT_RowId = serializers.SerializerMethodField()
     DT_RowAttr = serializers.SerializerMethodField()
 
