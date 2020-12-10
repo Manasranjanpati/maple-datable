@@ -1,12 +1,16 @@
-# maple-datable
-
-
 # Maple Datatable [![Maple](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
 
-# About 
+
+![alt text](https://github.com/Manasranjanpati/maple-datable/blob/master/media/Screenshot2.png)
+
+![alt text](https://github.com/Manasranjanpati/maple-datable/blob/master/media/Screenshot1.png)
+
+
+***About***
+
 This is a Simple Data Table application developed in Python web framework
 
-# Installation
+***Installation in Linux***
 
 Create a Folder Ex : `MapleData`
 
@@ -24,17 +28,22 @@ Activate the virtualenv using the following command as below and install require
 
 ```
  source venv/bin/activate
- pip install -r requirements.txt
 ```
 
-Set database using mysql or any other db
+Clone this repository and use and `cd` in to it.
 
-No need to use of below command if you are using existing database created by me.
+Use below command to migrate the db
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
+
+Open Browser and paste
+
+```
+localhost:8000
 ```
 
 Please feel free to ask any issues you face during Installation.
